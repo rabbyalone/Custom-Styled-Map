@@ -1,4 +1,4 @@
-# HTML5
-HTML5 Templates, Canvas, SVG &amp; Others
-== Custom Styled google map
-== Easy to use
+Custom styled google maps
+
+--Easy to use
+--place anywhere in your websites
