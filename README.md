@@ -1,4 +1,5 @@
 Custom styled google maps
 
 --Easy to use
---place anywhere in your websites
+--Place the div anywhere in your websites
+--Copy the script and paste it to your websites
