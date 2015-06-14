@@ -30,6 +30,17 @@
 			title:"Just Find Me Here",
 			map:map
 		});
+		var content = "<h2> Your Business Name</h2> <address><p>Address Line 1</p>
+		<p>Address Line 2</p><a href='mailto:email@example.com'></a><p>Telephone: xxx-xxx-xxxx</p></address>"
+		 
+		 var infowindow = new google.maps.InfoWindow({
+		 	contentString: content,
+		 	
+		 });
+		 google.maps.event.addListener(marker, 'click', function() {
+    			infowindow.open(map,marker);
+		 });
+
 		var styles= [
 			{
 				featureType: "road",
